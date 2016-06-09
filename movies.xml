@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<header>My Movie Collection</header>
+<movies xmlns:collection="http://movies.com">
+<parent xmlns="movie_collection"/>
+
+<collection:movie>
+	<collection:id>Alladin</collection:id>
+	<collection:title>Alladin</collection:title>
+	<collection:showtimes>
+		<collection:showtime>2 pm</collection:showtime>
+		<collection:showtime>4 pm</collection:showtime>
+		<collection:showtime>8 pm</collection:showtime>
+	</collection:showtimes>
+	<collection:element1 />
+	<collection:element2 />	
+</collection:movie>
+
+<collection:movie>
+	<collection:id>Cinderella</collection:id>
+	<collection:title>Cinderella</collection:title>
+	<collection:showtimes>
+		<collection:showtime>12 pm</collection:showtime>
+		<collection:showtime>3 pm</collection:showtime>
+		<collection:showtime>5 pm</collection:showtime>
+	</collection:showtimes>
+	<collection:element1 />
+	<collection:element2 />	
+</collection:movie>
+
+<collection:movie>
+	<collection:id>Beauty and the Beast</collection:id>
+	<collection:title>Beauty and the Beast</collection:title>
+	<collection:showtimes>
+		<collection:showtime>11 am</collection:showtime>
+		<collection:showtime>2 pm</collection:showtime>
+		<collection:showtime>cancelled</collection:showtime>
+	</collection:showtimes>
+	<collection:element1 />
+	<collection:element2 />	
+</collection:movie>
+
+<collection:movie>
+	<collection:id>Jungle Book</collection:id>
+	<collection:title>Jungle Book</collection:title>
+	<collection:showtimes>
+		<collection:showtime>12 pm</collection:showtime>
+		<collection:showtime>3 pm</collection:showtime>
+		<collection:showtime>5:30 pm</collection:showtime>
+	</collection:showtimes>
+	<collection:element1 />
+	<collection:element2 />	
+</collection:movie>
+
+</xml>
